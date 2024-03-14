@@ -1,17 +1,17 @@
-# goreleaser completion powershell
+# goreleaser completion PowerShell
 
-Generate the autocompletion script for powershell
+Generate the autocompletion script for PowerShell
 
 ## Synopsis
 
-Generate the autocompletion script for powershell.
+Generate the autocompletion script for PowerShell.
 
 To load completions in your current shell session:
 
 	goreleaser completion powershell | Out-String | Invoke-Expression
 
 To load completions for every new session, add the output of the above command
-to your powershell profile.
+to your PowerShell profile.
 
 
 ```
@@ -35,4 +35,3 @@ goreleaser completion powershell [flags]
 ## See also
 
 * [goreleaser completion](/cmd/goreleaser_completion/)	 - Generate the autocompletion script for the specified shell
-
